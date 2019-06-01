@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c15fc37-6d00-4894-82e5-83c34f09d451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/carousel-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/hadeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/yaoming.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/about.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/carousel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/contact.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/footerComp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/matches.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/navComp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/components/singleMatch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/js/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/style/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.front.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.server.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/static/js/components/singleMatch.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -111,6 +96,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/static/js/components/matches.vue" />
         <option value="$PROJECT_DIR$/src/static/js/components/singleMatch.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,12 +213,12 @@
       <workItem from="1558604487206" duration="2210000" />
       <workItem from="1559028533385" duration="6609000" />
       <workItem from="1559135402222" duration="19507000" />
-      <workItem from="1559264487916" duration="7817000" />
+      <workItem from="1559264487916" duration="7891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36143000" />
+    <option name="totallyTimeSpent" value="36217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -437,8 +423,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/js/components/singleMatch.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
