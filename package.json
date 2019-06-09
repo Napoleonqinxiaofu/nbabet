@@ -42,6 +42,11 @@
     "minireset.css": "^0.0.5",
     "vue-carousel": "^0.18.0",
     "vue-router": "^3.0.6",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.0.0",
+    "vuetable": "^1.5.12",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.14",
+    "bson-ext": "^2.0.2",
+    "kerberos": "^1.1.2"
   }
 }

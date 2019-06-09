@@ -30,11 +30,21 @@
         <div>
             {{winner}}
         </div>
+        <div>
+            <button
+                    class="statClickButton"
+                    v-if="!isHeader"
+                    @click="getStat"
+            >{{statWord}}</button>
+        </div>
     </div>
 
 </template>
 
 <script>
+    import {fetch} from 'whatwg-fetch';
+
+
     export default {
 
         props: {
@@ -68,6 +78,25 @@
             isCorrect: {
                 default: true
             }
+        },
+
+        data() {
+            return {
+                statWord: "数据统计",
+                statData: []
+            };
+        },
+
+        methods: {
+            getStat() {
+                fetch(`/data/stat/${this.homeTeam}-${this.awayTeam}`, {
+                    method: 'POST'
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                    });
+            }
         }
     };
 </script>
@@ -92,5 +121,18 @@
     .matchesDetail > div {
         flex: 1;
         text-align: center;
+    }
+
+    .statClickButton {
+        background: transparent;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .statClickButton:hover {
+        background: white;
+        color: black;
     }
 </style>

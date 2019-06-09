@@ -80,7 +80,7 @@
     }
 
     .carousel-images img {
-        height: 580px;
+        /*height: 580px;*/
         width: 100%;
         display: inline-block;
     }

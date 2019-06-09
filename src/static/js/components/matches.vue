@@ -22,7 +22,7 @@
             ></single-match>
 
             <single-match
-                v-for="match in currenMatches"
+                v-for="match in currentMatches"
                 :isHeader="match.isHeader"
                 :matchDate="match.matchDate"
                 :homeTeam="match.homeTeam"
@@ -33,7 +33,6 @@
                 :predictWinner="match.predictWinner"
                 :winner="match.winner"
             >
-
             </single-match>
         </div>
 
@@ -72,7 +71,7 @@
         },
 
         computed: {
-            currenMatches: function () {
+            currentMatches: function () {
                 if (this.matches.length === 0) {
                     return [];
                 }
@@ -143,6 +142,5 @@
 
     .dataPicker .el-date-editor {
         width: 100%;
-        border-radius: 0;
     }
 </style>
